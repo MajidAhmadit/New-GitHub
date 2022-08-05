@@ -1,0 +1,21 @@
+git init 
+git add
+git status
+git commit -m "test add"
+git remote add origin git@github.com:MajidAhmadit/New-GitHub.git
+git config --global user.email majidahmadi.t@gmail.com
+git config --global user.name "MajidAhmadit"
+git config --list 
+
+ssh-keygen
+cp id-pub to github ->setting ->ssh-> add
+git push -u origin master
+git log
+git log --pretty=oneline
+git reset --soft d526705712f396ca813d068ace8571ff8eaee183
+
+
+--------------------add new file ------------
+git add -A
+git rebase master --> if new branches was created 
+git chekout master --> to switch to master 
