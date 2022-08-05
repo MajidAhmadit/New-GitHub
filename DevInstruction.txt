@@ -13,7 +13,8 @@ git push -u origin master
 git log
 git log --pretty=oneline
 git reset --soft d526705712f396ca813d068ace8571ff8eaee183
-
+or
+git revert d526705712f396ca813d068ace8571ff8eaee183
 
 --------------------add new file ------------
 git add -A
